@@ -1,4 +1,4 @@
-baseURL = 'https://www.canossinidesign.it/sito_hogs/'
+baseURL = 'https://canox82.github.io/sito_hogs/'
 languageCode = 'it'
 title = 'Hogs Reggio Emilia AFT'
 theme = "hogs_theme"
