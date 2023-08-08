@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row row-cols-auto">
+      <div class="col">
+          <h5>HogsLinea del tempo</h5>
+      </div>
+  {{ range ( where .Site.Pages "Type" "storia" )}}
+      <div class="col">
+        <h5>
+          <span class="badge" style="transform: rotate(45deg);"><a href="{{ .RelPermalink }}">{{ .Params.year }}</a></span>
+        </h5>
+      </div>
+  {{ end }}
+  </div>
+</div>

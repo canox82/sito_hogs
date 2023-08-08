@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <main>
+      <div class="p-3 text-center">
+        <h3>SPONSOR</h3>
+        <br/>
+        <h5>Gli amici che hanno scelto di sostenerci</h5>
+      <div class="contents">
+        {{ with .Site.GetPage "section" "sponsor" }}
+        {{ range .Data.Pages }}
+        <div class="p-3 text-center">
+            {{ if .Params.sito }}
+              <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="100"></a>
+              {{ if .Params.esperienza }}
+                <a href="{{ .Permalink }}">!! ESPERIENZA !!</a>
+              {{ end }}
+            {{ else }}
+              <img src="{{ .Params.Logo }}" height="100">
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </main>
+{{ end }} 

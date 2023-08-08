@@ -1,0 +1,85 @@
+{{ define "main" }}
+  <main>
+      <div class="p-3">
+        <br/>
+        <h5>I nostri Team e Staff a seguito</h5>
+      <divS class="contents">
+        {{ range .Paginator.Pages }}
+        <div class="p-3">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+        {{ end }}
+      </div>
+      
+      <div class="text-center w-75 mx-auto">
+        <h3>CALENDARIO SENIOR</h3>
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <th scope="row">3 MARZO</th>
+              <td>RED JACKETS SARZANA vs HOGS REGGIO EMILIA</td>
+              <td>6</td>
+              <td>-</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <th scope="row">16 MARZO</th>
+              <td>HOGS REGGIO EMILIA vs PRETORIANI ROMA</td>
+              <td>24</td>
+              <td>-</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <th scope="row">30 MARZO</th>
+              <td>HOGS REGGIO EMILIA vs BRAVES BOLOGNA</td>
+              <td>37</td>
+              <td>-</td>
+              <td>33</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="text-center w-50 mx-auto">
+        <h3>CLASSIFICA SENIOR</h3>
+        <table class="table table-striped">
+          <tbody>
+            <thead>
+              <tr>
+                <th scope="col">N.</th>
+                <th scope="col">TEAM</th>
+                <th scope="col">W</th>
+                <th scope="col">L</th>
+                <th scope="col">PF</th>
+                <th scope="col">PA</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>1</td>
+              <td>HOGS REGGIO EMILIA</td>
+              <td>8</td>
+              <td>2</td>
+              <td>236</td>
+              <td>163</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>PRETORIANI ROMA</td>
+              <td>7</td>
+              <td>1</td>
+              <td>262</td>
+              <td>85</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>RED JACKETS SARZANA</td>
+              <td>3</td>
+              <td>5</td>
+              <td>102</td>
+              <td>199</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+{{ end }}

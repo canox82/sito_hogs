@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teams on Hogs Reggio Emilia AFT</title>
+    <link>https://www.canossinidesign.it/sito_hogs/team/</link>
+    <description>Recent content in Teams on Hogs Reggio Emilia AFT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language><atom:link href="https://www.canossinidesign.it/sito_hogs/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senior</title>
+      <link>https://www.canossinidesign.it/sito_hogs/team/senior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.canossinidesign.it/sito_hogs/team/senior/</guid>
+      <description> # Cognome Nome Ruolo 1 Fiorillo Gianluca RB 2 Morlini Denis LB 3 Pietranera Nicolò WR 4 Fontana Andrea LB </description>
+    </item>
+    
+    <item>
+      <title>Under 19</title>
+      <link>https://www.canossinidesign.it/sito_hogs/team/under19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.canossinidesign.it/sito_hogs/team/under19/</guid>
+      <description> # Cognome Nome Ruolo 9 Cebotaru Marian WR/K 12 Borsari Leonardo CB 18 Ghirri Marco RB 30 Ruozzi Luca RB </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+header,footer {
+    background-color: #4D101C;
+    color: #C0C0C0;
+}
+
+.nav-link {
+    color: #C0C0C0;
+}
+
+.mini {
+    font-size: 0.85rem;
+    color: #C0C0C0;
+}
+a.mini {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+a {
+    color: #4D101C;
+}
+a:hover {
+    color:darkgoldenrod;
+}
+a:link {
+    text-decoration: none;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+  
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+  
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+  
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}

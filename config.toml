@@ -1,0 +1,44 @@
+baseURL = 'https://www.canossinidesign.it/sito_hogs/'
+languageCode = 'it'
+title = 'Hogs Reggio Emilia AFT'
+theme = "hogs_theme"
+
+enableEmoji = true
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        pre = "home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Storia"
+        pre = "storia"
+        url = "/storia"
+        weight = 2
+    [[menu.main]]
+        name = "Team e Risultati"
+        pre = "team"
+        url = "/team"
+        weight = 3
+    [[menu.main]]
+        name = "Academy"
+        pre = "academy"
+        url = "/academy"
+        weight = 4
+    [[menu.main]]
+        name = "Sponsor"
+        pre = "sponsor"
+        url = "/sponsor"
+        weight = 5
+    [[menu.main]]
+        name = "Contatti"
+        pre = "contatti"
+        url = "/contatti"
+        weight = 6
+    
+    
+    
