@@ -1,7 +1,7 @@
 <header>
 <div id="nav-border" class="container p-3">
     <nav id="nav" class="nav justify-content-center align-items-center">
-        <a href="/"><img src="/img/logo_piccolo.png" width="125" alt="Logo Hogs Reggio Emilia AFT"></a>  
+        <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/img/logo_piccolo.png" width="125" alt="Logo Hogs Reggio Emilia AFT"></a>  
         {{ range .Site.Menus.main }}
         <a class="nav-link" href="{{ .URL }}">
         {{ if .Pre }}

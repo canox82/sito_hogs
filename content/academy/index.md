@@ -33,15 +33,15 @@ Tra i servizi offerti agli iscritti della Scuola di Fottball Americano e Flag Fo
 <center>
 <h3>SCARICA LA LOCANDINA!</h3>
 <br/>
-<a href="/img/bolo_academy/flag_cavriago-pdf-742x1024.jpg" target="#"><img src="/img/bolo_academy/flag_cavriago-pdf-742x1024_small.jpg" alt="Locandina Hogs Football Academy Enea BOLO Codeluppi"></a> 
-<a href="/img/bolo_academy/IMG-20210424-WA0009-724x1024.jpg" target="#"><img src="/img/bolo_academy/IMG-20210424-WA0009-724x1024_small.jpg" alt="Locandina Hogs Football Academy Enea BOLO Codeluppi"></a>
-<a href="/img/bolo_academy/IMG-20210424-WA0010-724x1024.jpg" target="#"><img src="/img/bolo_academy/IMG-20210424-WA0010-724x1024_small.jpg" alt="Locandina Hogs Football Academy Enea BOLO Codeluppi"></a>
+<a href="../img/bolo_academy/flag_cavriago-pdf-742x1024.jpg" target="#"><img src="../img/bolo_academy/flag_cavriago-pdf-742x1024_small.jpg" alt="Locandina Hogs Football Academy Enea BOLO Codeluppi"></a> 
+<a href="../img/bolo_academy/IMG-20210424-WA0009-724x1024.jpg" target="#"><img src="../img/bolo_academy/IMG-20210424-WA0009-724x1024_small.jpg" alt="Locandina Hogs Football Academy Enea BOLO Codeluppi"></a>
+<a href="../img/bolo_academy/IMG-20210424-WA0010-724x1024.jpg" target="#"><img src="../img/bolo_academy/IMG-20210424-WA0010-724x1024_small.jpg" alt="Locandina Hogs Football Academy Enea BOLO Codeluppi"></a>
 <br/><br/><br/>
 <div class="separator"><h3>SI RINGRAZIANO</h3></div>
 <br/>
-<a href="https://www.ghepi.it/" target="#"><img src="/img/bolo_academy/ghepi_logo.jpg" alt="Ghepi" height="100"></a>
-<a href="https://www.rmassemblaggi.it/" target="#"><img src="/img/bolo_academy/rm_logo.jpg" alt="RM Assemblaggi" height="100"></a>
-<a href="https://www.mecart.it/" target="#"><img src="/img/bolo_academy/mecart_logo.jpg" alt="MeCart" height="100"></a>
-<a href="https://www.solime.it/" target="#"><img src="/img/bolo_academy/solime_logo.jpg" alt="Solimé" height="100"></a>
+<a href="https://www.ghepi.it/" target="#"><img src="../img/bolo_academy/ghepi_logo.jpg" alt="Ghepi" height="100"></a>
+<a href="https://www.rmassemblaggi.it/" target="#"><img src="../img/bolo_academy/rm_logo.jpg" alt="RM Assemblaggi" height="100"></a>
+<a href="https://www.mecart.it/" target="#"><img src="../img/bolo_academy/mecart_logo.jpg" alt="MeCart" height="100"></a>
+<a href="https://www.solime.it/" target="#"><img src="../img/bolo_academy/solime_logo.jpg" alt="Solimé" height="100"></a>
 </center>
 <br/><br/>

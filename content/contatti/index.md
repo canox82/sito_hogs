@@ -21,12 +21,12 @@ draft: false
 **CAMPO ALLENAMENTI:** Via Mogadiscio 2, 42122 Reggio Emilia
 </td>
 <td>
-<img src="/img/hogs_logo.jpg">  
+<img src="../img/hogs_logo.jpg">  
 </td>
 </tr>
 <tr>
 <td>
-<img src="/img/hogs_left.png">
+<img src="../img/hogs_left.png">
 </td>
 <td>
 <br/>

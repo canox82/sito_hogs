@@ -18,9 +18,9 @@
     <h3>Sponsor</h3>
       {{ range .Data.Pages }}
         {{ if .Params.Sito }}
-          <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="50"></a>
+          <a href="{{ .Params.Sito }}" target="#"><img src="/sito_hogs//sito_hogs/{{ .Params.Logo }}" height="50"></a>
         {{ else }}
-          <img src="{{ .Params.Logo }}" height="50">
+          <img src="/sito_hogs//sito_hogs/{{ .Params.Logo }}" height="50">
         {{ end }}
       {{ end}}
   {{ end }}
