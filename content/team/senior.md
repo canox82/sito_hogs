@@ -1,6 +1,6 @@
 ---
 title: "Senior"
-draft: true
+draft: false
 serie: "LENAF"
 descrizione: "La squadra senior a 11 che raccoglie tutti i frutti del lungo lavoro delle giovani"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Under 19"
-draft: true
+draft: false
 serie: "Giovanili Under 19"
 descrizione: "La squadra junior di football a 9, dove i giovani ragazzi crescono per diventare campioni di domani!"
 ---
