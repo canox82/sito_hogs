@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div class="p-3">
     <center>
-        <a href="{{ .Params.sito }}"><img src="{{ .Params.logo }}" alt="{{ .Title }}" height="90"></a>
+        <a href="{{ .Params.sito }}"><img src="../{{ .Params.logo }}" alt="{{ .Title }}" height="90"></a>
     </center>
     <br><br>
     {{ .Content }}
