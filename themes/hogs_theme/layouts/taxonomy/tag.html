@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {{ template "partials/head.html" . }}
+    <body>
+        {{ template "partials/header.html" . }}
+        <div id="content">
+          <div class="p-3 text-center">
+            <h3>{{ .Title | humanize }}</h3>
+          </div>
+          <ul>
+            {{ range .Data.Pages.ByDate.Reverse }}
+            <li>
+              <a href="{{.RelPermalink}}">{{ .Params.data }} - {{.Title }}</a>
+            </li>
+            {{ end }}
+        </ul>        
+        </div>
+        {{ template "partials/footer.html" . }}
+        {{ template "partials/script.html" . }}
+    </body>
+</html>

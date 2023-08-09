@@ -1,17 +1,51 @@
 {{ define "main" }}
-<div id="home-jumbotron" class="jumbotron text-center p-3">
-  <h1 class="title">{{ .Site.Title }}</h1>
+<div>
+  <img src="/sito_hogs/img/banner_titolo.jpg" width="100%">
 </div>
-<!-- SEZIONE STORIA -->
+<div class="text-center p-3">
+  <h1 class="titolo" style="color:#4D101C;">DG PLAST HOGS REGGIO EMILIA</h1>
+</div>
 <div class="p-3">
-  <h2>
-    {{ with .Site.GetPage "section" "storia" }}{{ .Title }}
-  </h2>
-      {{ range first 10 .Data.Pages }}
-            <a href="{{ .Permalink }}"> {{ .Title }} </a> <br />
-      {{ end}}
-  {{ end }}
+  <div class="d-flex bd-highlight">
+    <!-- SEZIONE STORIA -->
+    <div class="p-3 flex-fill">
+      <h3 class="text-center">
+        {{ with .Site.GetPage "section" "storia" }}{{ .Title }}
+      </h3>
+          {{ range first 10 .Data.Pages }}
+                <a href="{{ .Permalink }}"> {{ .Title }} </a> <br />
+          {{ end}}
+      {{ end }}
+    </div>
+
+    <!-- SEZIONE NEWS -->
+    <div class="p-2 flex-fill bd-highlight flex-grow-1 ">
+      <h3 class="text-center">
+        {{ with .Site.GetPage "section" "news" }}{{ .Title }}
+      </h3>
+          {{ range last 10 .Data.Pages.ByDate.Reverse }}
+                <a href="{{ .Permalink }}"> {{ .Params.Data}} - {{ .Title }} </a> <br />
+          {{ end}}
+      {{ end }}
+    </div>
+
+    <!-- SEZIONE RISULTATI -->
+    <div class="p-2 flex-fill">
+      <h3 class="text-center">Risultati</h3>
+      <!--
+      <h3>
+        {{ with .Site.GetPage "section" "storia" }}{{ .Title }}
+      </h3>
+          {{ range first 10 .Data.Pages }}
+                <a href="{{ .Permalink }}"> {{ .Title }} </a> <br />
+          {{ end}}
+      {{ end }}
+      -->
+    </div>
+
+  </div>
 </div>
+
 <!-- SEZIONE SPONSOR -->
 <div class="p-3 text-center">
     {{ with .Site.GetPage "section" "sponsor" }}
