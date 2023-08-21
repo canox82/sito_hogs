@@ -1,24 +1,85 @@
 {{ define "main" }}
   <main>
-      <div class="p-3 text-center">
-        <h3>SPONSOR</h3>
-        <br/>
-        <h5>Gli amici che hanno scelto di sostenerci</h5>
-      <div class="contents">
-        {{ with .Site.GetPage "section" "sponsor" }}
-        {{ range .Data.Pages }}
-        <div class="p-3 text-center">
-            {{ if .Params.sito }}
-              <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="100"></a>
-              {{ if .Params.esperienza }}
-                <a href="{{ .Permalink }}">!! ESPERIENZA !!</a>
+    <div class="p-3 text-center">
+      <h3>SPONSOR</h3>
+      <br />
+      <h5>Gli amici che hanno scelto di sostenerci</h5>
+      <div class="d-flex justify-content-center">
+        <!-- OFFICIAL SPONSOR -->
+        {{ $data := newScratch }}
+        <div class="p-2 w-75 text-center">
+          <div class="d-flex justify-content-center m-5" style="background-color: #4D101C; color: #C0C0C0;">
+            <h5>OFFICIAL SPONSOR</h5>
+          </div>
+          <div class="d-flex justify-content-center flex-wrap">
+            {{ with .Site.GetPage "section" "sponsor" }}
+            {{ range where .Site.Pages ".Params.categoria" 4 }}
+            {{ $data.Set "altezza_sponsor" (add 60 ( mul 55 ( mul .Params.categoria 0.25 ))) }}
+            <div>
+              {{ if .Params.sito }}
+              <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}"></a>
+              {{ else }}
+              <img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}">
               {{ end }}
-            {{ else }}
-              <img src="{{ .Params.Logo }}" height="100">
+            </div>
             {{ end }}
+            {{ end }}
+          </div>
+          <!-- TOP SPONSOR -->
+          <div class="d-flex justify-content-center m-5" style="background-color: #4D101C; color: #C0C0C0;">
+            <h5>TOP SPONSOR</h5>
+          </div>
+          <div class="d-flex justify-content-center flex-wrap">
+            {{ with .Site.GetPage "section" "sponsor" }}
+            {{ range where .Site.Pages ".Params.categoria" 3 }}
+            {{ $data.Set "altezza_sponsor" (add 60 ( mul 55 ( mul .Params.categoria 0.25 ))) }}
+            <div>
+              {{ if .Params.sito }}
+              <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}"></a>
+              {{ else }}
+              <img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}">
+              {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+          <!-- SPONSOR STORICI -->
+          <div class="d-flex justify-content-center m-5" style="background-color: #4D101C; color: #C0C0C0;">
+            <h5>SPONSOR STORICI</h5>
+          </div>
+          <div class="d-flex justify-content-center flex-wrap">
+            {{ with .Site.GetPage "section" "sponsor" }}
+            {{ range where .Site.Pages ".Params.categoria" 2 }}
+            {{ $data.Set "altezza_sponsor" (add 60 ( mul 55 ( mul .Params.categoria 0.25 ))) }}
+            <div>
+              {{ if .Params.sito }}
+              <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}"></a>
+              {{ else }}
+              <img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}">
+              {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+          <!-- PREMIUM PARTNER -->
+          <div class="d-flex justify-content-center m-5" style="background-color: #4D101C; color: #C0C0C0;">
+            <h5>PREMIUM PARTNER</h5>
+          </div>
+          <div class="d-flex justify-content-center flex-wrap">
+            {{ with .Site.GetPage "section" "sponsor" }}
+            {{ range where .Site.Pages ".Params.categoria" 1 }}
+            {{ $data.Set "altezza_sponsor" (add 60 ( mul 55 ( mul .Params.categoria 0.25 ))) }}
+            <div>
+              {{ if .Params.sito }}
+              <a href="{{ .Params.Sito }}" target="#"><img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}"></a>
+              {{ else }}
+              <img src="{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}">
+              {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
         </div>
-        {{ end }}
-        {{ end }}
       </div>
     </div>
   </main>

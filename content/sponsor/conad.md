@@ -2,6 +2,7 @@
 title: "Conad Superstore"
 logo: "../img/sponsor/conad_logo.jpg"
 sito: "https://www.conad.it/"
+categoria: 3
 esperienza: true
 draft: false
 ---

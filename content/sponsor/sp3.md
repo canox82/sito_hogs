@@ -2,6 +2,7 @@
 title: "SP3 - Comunicazione e Grafica"
 logo: "../img/sponsor/sp3_logo.jpg"
 sito: "https://www.sp3.it/"
+categoria: 3
 esperienza: true
 draft: false
 ---

@@ -2,6 +2,7 @@
 title: "DG Plast"
 logo: "../img/sponsor/dgplast_logo.jpg"
 sito: "https://www.dgplast.com/"
+categoria: 4
 esperienza: true
 draft: false
 ---

@@ -48,16 +48,17 @@
 
 <!-- SEZIONE SPONSOR -->
 <div class="p-3 text-center">
+    {{ $data := newScratch }}
     {{ with .Site.GetPage "section" "sponsor" }}
     <h3>Sponsor</h3>
-      {{ range .Data.Pages }}
+      {{ range sort .Data.Pages ".Params.categoria" "desc" }}
+        {{ $data.Set  "altezza_sponsor" (add 40 ( mul 35 ( mul .Params.categoria 0.25 ))) }}
         {{ if .Params.Sito }}
-          <a href="{{ .Params.Sito }}" target="#"><img src="/sito_hogs//sito_hogs/{{ .Params.Logo }}" height="50"></a>
+          <a href="{{ .Params.Sito }}" target="#"><img src="/sito_hogs//sito_hogs/{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}"></a>
         {{ else }}
-          <img src="/sito_hogs//sito_hogs/{{ .Params.Logo }}" height="50">
+          <img src="/sito_hogs//sito_hogs/{{ .Params.Logo }}" height="{{ $data.Get "altezza_sponsor" }}">
         {{ end }}
       {{ end}}
   {{ end }}
 </div>
 {{ end }}
-
