@@ -1,7 +1,7 @@
 ---
 title: "GREENHOGS: PRIMA PARTITA CONTRO I WARRIORS"
 date_writing: 2020-10-02T11:28:28+02:00
-data: "02/10/2022"
+data: "02/10/2020"
 tags: ["junior"]
 draft: flag
 ---

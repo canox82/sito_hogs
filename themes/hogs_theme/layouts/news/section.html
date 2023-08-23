@@ -2,11 +2,11 @@
   <main>
       <div class="p-3">
         <br/>
-        <h5>I nostri Team e Staff a seguito</h5>
+        <h5>ARCHIVIO NEWS</h5>
       <div class="contents">
-        {{ range .Paginator.Pages }}
-        <div class="p-3">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ range sort .Pages ".Params.date_writing" "desc" }}
+        <div class="p-1">
+          <a href="{{ .RelPermalink }}">{{ .Params.data }} - {{ .Title }}</a>
         </div>
         {{ end }}
       </div>

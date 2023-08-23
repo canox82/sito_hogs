@@ -23,10 +23,13 @@
       <h3 class="text-center">
         {{ with .Site.GetPage "section" "news" }}{{ .Title }}
       </h3>
-          {{ range last 10 .Data.Pages.ByDate.Reverse }}
+          {{ range first 10 (sort .Data.Pages ".Params.date_writing" "desc") }}
                 <a href="{{ .Permalink }}"> {{ .Params.Data}} - {{ .Title }} </a> <br />
           {{ end}}
       {{ end }}
+      <div class="text-center mt-3">
+        <a href="./news/"> >> ARCHIVIO NEWS << </a>
+      </div>
     </div>
 
     <!-- SEZIONE RISULTATI -->
