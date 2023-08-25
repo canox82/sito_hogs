@@ -8,23 +8,35 @@
             <br>
             {{ .Content }}
         </div>
-        <div class="p-2 mb-3">
+        <div class="p-3 ms-3 mb-3 border-start border-warning">
             {{ $roster:=print "roster_" .Params.year}}
             {{ $data:= (index .Site.Data.roster $roster) }}
             {{ with $data }}
                 <h5>LE SQUADRE</h5>
                 <br/>
                 
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#senior" aria-expanded="false" aria-controls="senior">
-                    Senior
-                </button> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u21" aria-expanded="false" aria-controls="u21">
-                    Under21
-                </button>  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u17" aria-expanded="false" aria-controls="u17">
-                    Under17
-                </button>  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u14" aria-expanded="false" aria-controls="u14">
-                    Under14
-                </button>
-                <div class="collapse" id="senior">
+                {{ if .senior }}
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#senior" aria-expanded="false" aria-controls="senior">
+                        Senior
+                    </button> 
+                {{ end }}
+                {{ if .u21 }}
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u21" aria-expanded="false" aria-controls="u21">
+                        Under21
+                    </button>  
+                {{ end }}
+                {{ if .u17 }}
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u17" aria-expanded="false" aria-controls="u17">
+                        Under17
+                    </button>  
+                {{ end }}
+                {{ if .u14 }}
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u14" aria-expanded="false" aria-controls="u14">
+                        Under14
+                    </button>
+                {{ end }}
+                <div class="mt-3 p-3 collapse" id="senior">
+                    <h5 class="text-center">Team Senior</h5>
                     <h6>GIOCATORI</h6>
                         {{ range .senior.giocatori }}
                             <span class="p-1">{{ . }}</span><br/>
@@ -50,7 +62,8 @@
                         <span class="p-1">{{ . }}</span><br/>
                     {{ end}}
                 </div>
-                <div class="collapse" id="u21">
+                <div class="mt-3 p-3 collapse" id="u21">
+                    <h5 class="text-center">Team Under21</h5>
                     <h6>GIOCATORI</h6>
                         {{ range .u21.giocatori }}
                             <span class="p-1">{{ . }}</span><br/>
@@ -76,7 +89,8 @@
                         <span class="p-1">{{ . }}</span><br/>
                     {{ end}}
                 </div>
-                <div class="collapse" id="u17">
+                <div class="mt-3 p-3 collapse" id="u17">
+                    <h5 class="text-center">Team Under17</h5>
                     <h6>GIOCATORI</h6>
                         {{ range .u17.giocatori }}
                             <span class="p-1">{{ . }}</span><br/>
@@ -102,7 +116,8 @@
                         <span class="p-1">{{ . }}</span><br/>
                     {{ end}}
                 </div>
-                <div class="collapse" id="u14">
+                <div class="mt-3 p-1 collapse" id="u14">
+                    <h5 class="text-center">Team Under14</h5>
                     <h6>GIOCATORI</h6>
                         {{ range .u14.giocatori }}
                             <span class="p-1">{{ . }}</span><br/>

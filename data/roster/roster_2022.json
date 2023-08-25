@@ -38,6 +38,11 @@
             "Riccardo Anthony Zanni"
         ],
         "coach": [
+            "Luca Aschero",
+            "Marco Bonacini",
+            "Leonardo Lazzaretti",
+            "Giovanni Modena",
+            "Daniele Rossi"
         ]
     },
     "u21": {
@@ -68,7 +73,11 @@
             "Riccardo Zanini"
         ],
         "coach": [
-
+            "Luca Aschero",
+            "Marco Bonacini",
+            "Leonardo Lazzaretti",
+            "Giovanni Modena",
+            "Daniele Rossi"
         ]
     },
     "u17": {
@@ -106,7 +115,11 @@
             "Umberto Zanini"
         ],
         "coach": [
-
+            "Luca Aschero",
+            "Marco Bonacini",
+            "Leonardo Lazzaretti",
+            "Giovanni Modena",
+            "Daniele Rossi"
         ]
     },
     "u14": {
@@ -137,27 +150,30 @@
             "Filippo Zilli"
         ],
         "coach": [
-            
+            "Luca Aschero",
+            "Marco Bonacini",
+            "Leonardo Lazzaretti",
+            "Giovanni Modena",
+            "Daniele Rossi"
         ]
     },
     "scorer": [
-        "Erika Cantù"
+        "Renata Fontechiari",
+        "Alessia Raffaelli"
     ],
     "medici": [
-        "Paolo Cassani",
-        "Adriano Guidetti",
-        "Enrico Ligabue",
-        "Paolo Tirelli",
-        "Alessandro Vecchio"
+        "Edoardo Belletti",
+        "Fabrizio Bianco"
     ],
     "dirigenti" :[
         "Claudio Bizzarri",
-        "Lorenzo Bonafini",
-        "Giovanni Cantù",
-        "Matteo Incerti",
-        "Leonardo Lazzaretti",
+        "Sauro Codeluppi",
+        "De Leo Riccardo",
+        "Renata Fontechiari",
+        "Loris Ginepri",
+        "Ettore Maestri",
         "Davide Ruozzi",
-        "Mirco Sassi",
+        "Federico Scolari",
         "Gianfranco Sessi"
     ]
 }

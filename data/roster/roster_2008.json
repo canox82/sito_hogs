@@ -1,0 +1,132 @@
+{
+    "senior": {
+        "giocatori": [
+            
+        ],
+        "coach": [
+            "Dwaine Hatch",
+            "Luca Cattini",
+            "Mauro Giberti",
+            "Giorgio Longhi",
+            "Andrea Lugli",
+            "Daniele Rossi",
+            "Federico Scolari"
+        ]
+    },
+    "u21": {
+        "giocatori": [
+            "Federico Bedini",
+            "Alberto Beghi",
+            "Alberto Bertoni",
+            "Luca Biagini",
+            "Marco Bonacini",
+            "Alessandro Bussei",
+            "Giovanni Caccialupi",
+            "Luca Callegati",
+            "Renato Camposano",
+            "Luca Catellani",
+            "Jacopo Cavazzoni",
+            "Marco Innocente Contalbo",
+            "Gabriele Costi",
+            "Riccardo De Leo",
+            "Domenico Errico",
+            "Riccardo Fantozzi",
+            "Valerio Fantuzzi",
+            "Fabio Fornari",
+            "Matteo Franceschini",
+            "Matteo Franzoni",
+            "Mattia Galvano",
+            "Andrea Giuliano",
+            "Niccolò Iotti",
+            "Marco Lazzaretti",
+            "Damiano Ligabue",
+            "Maicol Massarenti",
+            "Davide Mosca",
+            "Riccardo Palicelli",
+            "Niccolò Pietranera",
+            "Marco Prampolini",
+            "Luca Ponzo",
+            "Marco Rinaldini",
+            "Luca Salvarani",
+            "Jordan Sassi",
+            "Massimiliano Trenti",
+            "Manuele Vezzani",
+            "Roberto Zini"
+        ],
+        "coach": [
+            "Luca Cattini",
+            "Jacopo Cavazzoni",
+            "Gianluca Fiorillo",
+            "Andrea Fontana",
+            "Mauro Giberti",
+            "Giorgio Longhi",
+            "Andrea Lugli",
+            "Daniele Rossi",
+            "Federico Scolari",
+            "Alberto Tartaglia",
+            "Fabio Bartoli",
+            "Maurizio Pradelli",
+            "Marurizio Zanni"
+        ]
+    },
+    "u17": {
+        "giocatori": [
+            "Luca Bedogni",
+            "Salvatore Canale",
+            "Junior De Jesus",
+            "Cristian Fiorello",
+            "Simone Franzini",
+            "Luca Gandolfi",
+            "Edoardo Grasselli",
+            "Tommaso Guerra",
+            "Davide Maestri",
+            "Marco Malagoli",
+            "Trevpr Manfredini",
+            "Matteo Manzotti",
+            "Salvatore Montescuro",
+            "Denis Morlini",
+            "Riccardo Papotti",
+            "Francesco Parmiggiani",
+            "Alex Piccinini",
+            "Massimiliano Poli",
+            "Alberto Rizzuti",
+            "Cristian Stirbu",
+            "Andrea Tarasconi"
+        ],
+        "coach": [
+            "Luca Cattini",
+            "Jacopo Cavazzoni",
+            "Gianluca Fiorillo",
+            "Andrea Fontana",
+            "Mauro Giberti",
+            "Giorgio Longhi",
+            "Andrea Lugli",
+            "Daniele Rossi",
+            "Federico Scolari",
+            "Alberto Tartaglia",
+            "Fabio Bartoli",
+            "Maurizio Pradelli",
+            "Marurizio Zanni"
+        ]
+    },
+    "scorer": [
+        "Barbara Comi",
+        "Mirco Sassi"
+
+    ],
+    "medici": [
+        "Edoardo Belletti",
+        "Fabrizio Bianco"
+    ],
+    "dirigenti" :[
+        "Claudio Bizzarri",
+        "Antonio Callegati",
+        "Matteo Incerti",
+        "Leonardo Lazzaretti",
+        "Federica Palumbo",
+        "Manuela Pellegrini",
+        "Davide Ruozzi",
+        "Federico Scolari",
+        "Gianfranco Sessi"
+    ]
+}
