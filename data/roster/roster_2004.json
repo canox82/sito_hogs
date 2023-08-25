@@ -1,0 +1,72 @@
+{
+    "u21":{
+        "giocatori": [
+            "Michael Martino",
+            "Nicolo Scaglia",
+            "Gianluca Fiorillo",
+            "Davide Richetti",
+            "Massimo Sorice",
+            "Paolo Armah",
+            "Osborne Tukpeh Antwi",
+            "Marco Bonacini",
+            "Francesco Aiello",
+            "Jacopo Cavazzoni",
+            "Tyron Torreggiani",
+            "Raffaele Oliviero",
+            "Pasquale Giacometti",
+            "Andrea Fontana",
+            "Matteo Borgese",
+            "Alessandro Mattioli",
+            "Riccardo Malmusi",
+            "Moreno Poli",
+            "Francesco Tirelli",
+            "Alberto Tartaglia",
+            "Riccardo Soragni",
+            "Alan Belli",
+            "Massimiliano Sassi",
+            "Manuel Sessi",
+            "Enrico Bonezzi",
+            "Andrea Marangon",
+            "Mirco Ronzoni",
+            "Simone Tagliavini",
+            "Emanuele Argentini",
+            "Gianluca Bacchiavini",
+            "Mattia Scolari",
+            "Paolo Artoni",
+            "Gregory Gregorace",
+            "Simone Spagni",
+            "Stefano Borzani",
+            "Gianluca Bagnoli",
+            "Federico Boni",
+            "Davide Gazzini",
+            "Cristia Uwaka",
+            "Stefano Vernillo",
+            "Damiano Ligabue"
+
+        ],
+        "coach": [
+            "Mauro Giberti",
+            "Gionata Lazzaretti",
+            "Massimiliano Mai",
+            "Luca Cattini",
+            "Andrea Lugli"
+        ]
+    },
+    "scorer": [
+        "Mirco Sassi",
+        "Erika Cantu"
+    ],
+    "medici": [
+        "Claudio Minervini",
+        "Alessandro Vecchio",
+        "Roberto Musi"
+    ],
+    "dirigenti" :[
+        "Claudio Bizzarri",
+        "Federico Scolari",
+        "Leonardo Lazzaretti",
+        "Carlo Silingardi",
+        "Maurizio Badari",
+        "Alessandro Bussetti"
+    ]
+}

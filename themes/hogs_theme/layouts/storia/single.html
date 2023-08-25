@@ -2,9 +2,133 @@
     <div class="p-3">
         {{ template "partials/story_timeline.html".}}
     </div>
-    <div class="p-3">
-        <h2>{{ .Title }}</h2>
-        <br>
-        {{ .Content }}
+    <div class="d-flex flex-row">
+        <div class="p-2 w-75">
+            <h2>{{ .Title }}</h2>
+            <br>
+            {{ .Content }}
+        </div>
+        <div class="p-2 mb-3">
+            {{ $roster:=print "roster_" .Params.year}}
+            {{ $data:= (index .Site.Data.roster $roster) }}
+            {{ with $data }}
+                <h5>LE SQUADRE</h5>
+                <br/>
+                
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#senior" aria-expanded="false" aria-controls="senior">
+                    Senior
+                </button> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u21" aria-expanded="false" aria-controls="u21">
+                    Under21
+                </button>  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u17" aria-expanded="false" aria-controls="u17">
+                    Under17
+                </button>  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#u14" aria-expanded="false" aria-controls="u14">
+                    Under14
+                </button>
+                <div class="collapse" id="senior">
+                    <h6>GIOCATORI</h6>
+                        {{ range .senior.giocatori }}
+                            <span class="p-1">{{ . }}</span><br/>
+                        {{ end}}
+                    <br/>
+                    <h6>COACH</h6>
+                    {{ range .senior.coach }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>SCORER</h6>
+                    {{ range .scorer }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DOC & FISIO</h6>
+                    {{ range .medici }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DIRIGENTI</h6>
+                    {{ range .dirigenti }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                </div>
+                <div class="collapse" id="u21">
+                    <h6>GIOCATORI</h6>
+                        {{ range .u21.giocatori }}
+                            <span class="p-1">{{ . }}</span><br/>
+                        {{ end}}
+                    <br/>
+                    <h6>COACH</h6>
+                    {{ range .u21.coach }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>SCORER</h6>
+                    {{ range .scorer }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DOC & FISIO</h6>
+                    {{ range .medici }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DIRIGENTI</h6>
+                    {{ range .dirigenti }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                </div>
+                <div class="collapse" id="u17">
+                    <h6>GIOCATORI</h6>
+                        {{ range .u17.giocatori }}
+                            <span class="p-1">{{ . }}</span><br/>
+                        {{ end}}
+                    <br/>
+                    <h6>COACH</h6>
+                    {{ range .u17.coach }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>SCORER</h6>
+                    {{ range .scorer }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DOC & FISIO</h6>
+                    {{ range .medici }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DIRIGENTI</h6>
+                    {{ range .dirigenti }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                </div>
+                <div class="collapse" id="u14">
+                    <h6>GIOCATORI</h6>
+                        {{ range .u14.giocatori }}
+                            <span class="p-1">{{ . }}</span><br/>
+                        {{ end}}
+                    <br/>
+                    <h6>COACH</h6>
+                    {{ range .u14.coach }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>SCORER</h6>
+                    {{ range .scorer }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DOC & FISIO</h6>
+                    {{ range .medici }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                    <br/>
+                    <h6>DIRIGENTI</h6>
+                    {{ range .dirigenti }}
+                        <span class="p-1">{{ . }}</span><br/>
+                    {{ end}}
+                </div>
+            {{ end }}
+        </div>
     </div>
 {{ end }}

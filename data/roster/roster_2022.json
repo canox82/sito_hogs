@@ -1,0 +1,163 @@
+{
+    "senior": {
+        "giocatori": [
+            "Giordano Baldini",
+            "Maicol Barigazzi",
+            "Fabio Battistini",
+            "Daniele Bertagnini",
+            "Benjamin Boache",
+            "Matteo Bondi",
+            "Leonardo Borsari",
+            "Simone Boschin",
+            "Nicholas Braga",
+            "Riccardo Buriani",
+            "Riccardo Camorani",
+            "Enrico Coppola",
+            "Kalid El Amrani Ejouti",
+            "Riccardo Fantozzi",
+            "Andrea Fontana",
+            "Francesco Giacomelli",
+            "Giovanni Giustini",
+            "Tommaso Guerra",
+            "Gilbert Umberto Harmah",
+            "Decent Oduosa Inmwan Mona",
+            "Daniele Kolobi",
+            "Nicolò Marino",
+            "Nalvert Yosbell Matias Franco",
+            "Manuel Mazzani",
+            "Federico Montecchi",
+            "Denis Mortlini",
+            "Emmanuel Onwuamaegbu",
+            "Emmanuele Oriunto",
+            "Daniele Raffaelli",
+            "Alberto Rizzuti",
+            "Leonardo Rozzi",
+            "Alex Ruozzi",
+            "Luca Ruozzi",
+            "Nicolò Soragni",
+            "Riccardo Anthony Zanni"
+        ],
+        "coach": [
+        ]
+    },
+    "u21": {
+        "giocatori": [
+            "Lorenzo Barbarini",
+            "Daniele Bertagnini",
+            "Simone Boschini",
+            "Mattia Cordani",
+            "Tommaso Felisa",
+            "Sebastiano Ferrari",
+            "Giovanni Giustini",
+            "Decent Inmwan",
+            "Daniele Kolombi",
+            "Marco Lombardi",
+            "Nicola Luzzoli",
+            "Thierry Maccanelli",
+            "Pietro Magri",
+            "Pavel Morari",
+            "Mattia Novarini",
+            "Emmanuel Omwaeme Gbu",
+            "Emanuele Oriunto",
+            "Antonio Ranieri",
+            "Leonardo Rozzi",
+            "Mauro Toscano",
+            "Amedeo Vascelli",
+            "Angelo Vascelli",
+            "Alessandro Virgoletti",
+            "Riccardo Zanini"
+        ],
+        "coach": [
+
+        ]
+    },
+    "u17": {
+        "giocatori": [
+            "Giacomo Abbati",
+            "Lorenzo Alemanno",
+            "Giulio Ambanelli",
+            "Maicol Barigazzi",
+            "Nicolas Bertorelli",
+            "Rocco Bonvicini",
+            "Alexander Burani",
+            "Damiano Caroli",
+            "Samuele Copello",
+            "Manuel Cordani",
+            "Alessandro Costi",
+            "Emanuele Daino",
+            "Kalid Ed Amrani",
+            "Tommaso Greci",
+            "Jules Huichard",
+            "Alessandro Jakovija",
+            "Romeo Jones",
+            "Alessandro Ledda",
+            "Fabrizio Lusetti",
+            "Lorenzo Maretti",
+            "Nicolò Marino",
+            "Giacomo Moffa",
+            "Luca Montaresi",
+            "Mattia Napolitano",
+            "Lorenzo Pancaldi",
+            "Mattia Panciroli",
+            "Aleandro Russo",
+            "Mattia Selis",
+            "Simone Tegoni",
+            "Davide Volpi",
+            "Umberto Zanini"
+        ],
+        "coach": [
+
+        ]
+    },
+    "u14": {
+        "giocatori": [
+            "JP Amon",
+            "Guglielmo Bai",
+            "Cristian Bernazzoli",
+            "Lorenzo Bishara",
+            "Christian Candioti",
+            "Antonio Costi",
+            "Matteo Delindati",
+            "Francesco Fava",
+            "Riccardo Gelmini",
+            "Cristiano Leoni",
+            "Lorenzo Limardi",
+            "Marco Losa",
+            "Pietro Maretti",
+            "Mathias Mielzarek",
+            "Edoardo Monteverdi",
+            "Stephane Mpoko",
+            "Tommaso Perinotto",
+            "Sebastiano Pezzi",
+            "Pietro Rizzi",
+            "Giulio Rizzi",
+            "Mattia Solombrino",
+            "Nicolas Vassort",
+            "Francesco Vinaccia",
+            "Filippo Zilli"
+        ],
+        "coach": [
+            
+        ]
+    },
+    "scorer": [
+        "Erika Cantù"
+    ],
+    "medici": [
+        "Paolo Cassani",
+        "Adriano Guidetti",
+        "Enrico Ligabue",
+        "Paolo Tirelli",
+        "Alessandro Vecchio"
+    ],
+    "dirigenti" :[
+        "Claudio Bizzarri",
+        "Lorenzo Bonafini",
+        "Giovanni Cantù",
+        "Matteo Incerti",
+        "Leonardo Lazzaretti",
+        "Davide Ruozzi",
+        "Mirco Sassi",
+        "Gianfranco Sessi"
+    ]
+}

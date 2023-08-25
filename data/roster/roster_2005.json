@@ -1,0 +1,174 @@
+{
+    "senior": {
+        "giocatori": [
+            "Simone Casolari",
+            "Robert Chavez",
+            "Brent Cogburn",
+            "Domenico Consales",
+            "Cristian Cosimo",
+            "Eric Eletti",
+            "Gianluca Fiorillo",
+            "Andrea Fontana",
+            "Mattia Fontanesi",
+            "Renato Frignani",
+            "Pasquale Giacometti",
+            "Mauro Giberti",
+            "Armando Imperato",
+            "Gionata Lazzaretti",
+            "Leonardo Lazzaretti",
+            "Stefano Lo Passo",
+            "Massimiliano Mai",
+            "Emilio Muratori",
+            "Roberto Musi",
+            "Luca Nardini",
+            "Mario Oliviero",
+            "Stefano Pedroni",
+            "Davide Ricchetti",
+            "Matteo Santi",
+            "Nicolò Scaglia",
+            "Mattia Scolari",
+            "Carlo Silingardi",
+            "Riccardo Soragni",
+            "Alberto Tartaglia",
+            "Osborn Tukpeh",
+            "Fabrizio Vaccari",
+            "Mauro Vacondio",
+            "Stefano Vernillo",
+            "Marco Viani",
+            "Eros Zagaglia",
+            "Maurizio Zanni"
+        ],
+        "coach": [
+            "Luca Cattini",
+            "Marco Giovannini",
+            "Andrea Lugli",
+            "Jimmy Nolan",
+            "Federico Scolari"
+            
+        ]
+    },
+    "u21": {
+        "giocatori": [
+            "Francesco Aiello",
+            "Davide Armah",
+            "Paolo Armah",
+            "Paolo Artoni",
+            "N'Dori Aymiard",
+            "Gianluca Bacchiavini",
+            "Matteo Bellelli",
+            "Alan Belli",
+            "Marco Bonacini",
+            "Enrico Bonezzi",
+            "Andrea Borciani",
+            "Stefano Borziani",
+            "Federico Bosi",
+            "Daniele Braghiroli",
+            "Jacopo Cavazzoni",
+            "Silvio Ferretti",
+            "Andrea Fontana",
+            "Daniel Fontanesi",
+            "Pasquale Giacometti",
+            "Giacomo Giovanardi",
+            "Damiano Ligabue",
+            "Riccardo Malmusi",
+            "Andrea Marangon",
+            "Michael Martino",
+            "Maicol Massarenti",
+            "Manuel Mazzani",
+            "Davide Mosca",
+            "Moreno Poli",
+            "Daniele Potenza",
+            "Marco Salvarani",
+            "Luigi Saporito",
+            "Isacco Sassi",
+            "Massimiliano Sassi",
+            "Nicolò Scaglia",
+            "Mattia Scolari",
+            "Riccardo Soragni",
+            "Massimo Sorice",
+            "Simone Spagni",
+            "Armando Stasi",
+            "Alberto Tartaglia",
+            "Francesco Tirelli",
+            "Tyron Torreggiani",
+            "Massimiliano Trenti",
+            "Osborne Tukpeh Antwi",
+            "Stefano Vernilo"
+        ],
+        "coach": [
+
+        ]
+    },
+    "u17": {
+        "giocatori": [
+            "Davide Armah",
+            "Matteo Bellelli",
+            "Andrea Borciani",
+            "Federico Bosi",
+            "Daniele Braghiroli",
+            "Andrea De Maria",
+            "Giacomo Giovanardi",
+            "Nicola Lapta",
+            "Damiano Ligabue",
+            "Maicol Massarenti",
+            "Davide Mosca",
+            "Marco Pini",
+            "Antonio Luca Ponzo",
+            "Roberto Portoriero",
+            "Daniele Potenza",
+            "Isacco Sassi",
+            "Simone Spagni",
+            "Luciano Stefani",
+            "Luca Stermieri",
+            "Fabiano Uboldi",
+            "Emanuele Vezzani",
+            "Jonni Vinci",
+            "Lorenzo Zanardi"
+        ],
+        "coach": [
+
+        ]
+    },
+    "u14": {
+        "giocatori": [
+            "Davide Armah",
+            "Gianluca Barba",
+            "Daniele Braghiroli",
+            "Alessandro Bussei",
+            "Caccialupi Giovanni",
+            "Domenico Errico",
+            "Nicholas Feo",
+            "Riccardo Govi",
+            "Maicol Massarenti",
+            "Lorenzo Mercati",
+            "Alex Piccinini",
+            "Daniele Potenza",
+            "Isacco Sassi",
+            "Simone Spagni",
+            "Leonardo Teggi"
+        ],
+        "coach": [
+            
+        ]
+    },
+    "scorer": [
+        "Erika Cantù"
+    ],
+    "medici": [
+        "Paolo Cassani",
+        "Adriano Guidetti",
+        "Enrico Ligabue",
+        "Paolo Tirelli",
+        "Alessandro Vecchio"
+    ],
+    "dirigenti" :[
+        "Claudio Bizzarri",
+        "Lorenzo Bonafini",
+        "Giovanni Cantù",
+        "Matteo Incerti",
+        "Leonardo Lazzaretti",
+        "Davide Ruozzi",
+        "Mirco Sassi",
+        "Gianfranco Sessi"
+    ]
+}

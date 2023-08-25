@@ -4,6 +4,7 @@ title = 'Hogs Reggio Emilia AFT'
 theme = "hogs_theme"
 
 enableEmoji = true
+enableInlineShortcodes = true
 
 [markup.goldmark.renderer]
     unsafe = true

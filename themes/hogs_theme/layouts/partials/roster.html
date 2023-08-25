@@ -1,0 +1,35 @@
+<h6>GIOCATORI</h6>
+<ul>
+    {{ range .giocatori }}
+        <li>{{ . }}</li>
+    {{ end }}
+</ul>
+<br/>
+<h6>COACH</h6>
+<ul>
+    {{ range .coach }}
+        <li>{{ . }}</li>
+    {{ end }}
+</ul>
+<br/>
+<h6>SCORER</h6>
+<ul>
+    {{ range .scorer }}
+        <li>{{ . }}</li>
+    {{ end }}
+</ul>
+<br/>
+<h6>DOC & FISIO</h6>
+<ul>
+    {{ range .medici }}
+        <li>{{ . }}</li>
+    {{ end }}
+</ul>
+<br/>
+<h6>DIRIGENTI</h6>
+<ul>
+    {{ range .dirigenti }}
+        <li>{{ . }}</li>
+    {{ end }}
+</ul>
+<br/>
