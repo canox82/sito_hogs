@@ -21,6 +21,12 @@ enableInlineShortcodes = true
         url = "/storia"
         weight = 2
     [[menu.main]]
+        name = "Statistiche"
+        pre = "statistiche"
+        url = "/statistiche"
+        parent = "Storia"
+        weight = 1
+    [[menu.main]]
         name = "Team e Risultati"
         pre = "team"
         url = "/team"
