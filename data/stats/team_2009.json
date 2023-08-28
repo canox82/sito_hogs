@@ -1,0 +1,10 @@
+{
+    "senior": {
+        "SCORING": [ "253", "216"],
+        "Points per Game": ["28,1", "24,0"],
+        "FIRST DOWNS": ["126", "121"],
+        "Rushing": ["100", "47"],
+        "Passing": ["19", "67"],
+        "Penalty": ["7", "7"]
+    }
+}
