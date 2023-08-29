@@ -5,23 +5,29 @@
     <div class="p-3">
         <h2>{{ .Title }}</h2>
         <br/>
-        <table class="table-bordered">
-            <thead class="bg-danger text-light">
-                <tr>
-                    <th>TEAM STATISTICS</th>
-                    <th>HOGS</th>
-                    <th>OPP</th>
-                </tr>
-            </thead>
+        <h4 class="text-center">SENIOR</h4><br/>
+        <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto">
             <tbody>
-                {{ $stat:=print "./content/statistiche/stats_" .Params.year ".csv"}}
+                {{ $stat:=print "./content/statistiche/senior_" .Params.year ".csv"}}
                 {{ $sep := ";" }}
                 {{ range $i, $r := getCSV $sep $stat }}
+                    {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                        <tr>
+                            <th colspan="3">{{ index $r 0 }}</th>
+                        </tr>
+                    {{ else if or (strings.ContainsAny (index $r 0) "1234567890") (strings.ContainsAny (index $r 2) "1234567890") }}
+                        <tr>
+                            <td>{{ index $r 0 }}</td>
+                            <td>{{ index $r 1 }}</td>
+                            <td>{{ index $r 2 }}</td>
+                        </tr> 
+                    {{ else }}
                     <tr>
                         <th>{{ index $r 0 }}</th>
-                        <td>{{ index $r 1 }}</td>
-                        <td>{{ index $r 2 }}</td>
+                        <th>{{ index $r 1 }}</th>
+                        <th>{{ index $r 2 }}</th>
                     </tr>
+                    {{ end }}
                 {{ end }}
             </tbody> 
         </table>
