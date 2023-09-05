@@ -1,7 +1,170 @@
 {{ define "main" }}
     <div class="p-3">
-    <h2>{{ .Title }}</h2>
-    <br>
-    {{ .Content }}
+        {{ template "partials/team_timeline.html".}}
+    </div>
+    <div class="p-3">
+        <h2>CLASSIFICHE E RISULTATI STAGIONE {{ .Title }}</h2>
+        <br/>
+        <div class="d-flex justify-content-around flex-wrap">
+            <!-- CLASSIFICA SENIOR -->
+            {{ $team_senior:=print "./content/team/dati/senior_grid_" .Params.year ".csv"}}
+            {{ if os.FileExists $team_senior }} 
+                <div>
+                    <h4 class="text-center">CLASSIFICA SENIOR</h4><br />
+                    <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                        <tbody>
+                            {{ $sep := ";" }}
+                            {{ range $i, $r := getCSV $sep $team_senior }}
+                                {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                                    <tr>
+                                        <th colspan="4">{{ index $r 0 }}</th>
+                                    </tr>
+                                {{ else }}
+                                    <tr>
+                                        <td>{{ index $r 0 }}</td>
+                                        <td>{{ index $r 1 }}</td>
+                                        <td>{{ index $r 2 }}</td>
+                                        <td>{{ index $r 3 }}</td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+            {{ end }}
+            <!-- CALENDARIO SENIOR -->
+            {{ $cal_senior:=print "./content/team/dati/senior_games_" .Params.year ".csv"}}
+            {{ if os.FileExists $cal_senior }} 
+                <div>
+                    <h4 class="text-center">CALENDARIO PARTITE SENIOR</h4><br />
+                    <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                        <tbody>
+                            {{ $sep := ";" }}
+                            {{ range $i, $r := getCSV $sep $cal_senior }}
+                                {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                                    <tr>
+                                        <th colspan="4">{{ index $r 0 }}</th>
+                                    </tr>
+                                {{ else }}
+                                    <tr>
+                                        <td>{{ index $r 0 }}</td>
+                                        <td>{{ index $r 1 }}</td>
+                                        <td>{{ index $r 2 }}</td>
+                                        <td>{{ index $r 3 }}</td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+            {{ end }}
+
+            <!-- CLASSIFICA COLLEGE -->
+            {{ $team_college:=print "./content/team/dati/college_grid_" .Params.year ".csv"}}
+            {{ if os.FileExists $team_college }} 
+                <div>
+                    <h4 class="text-center">CLASSIFICA COLLEGE</h4><br />
+                    <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                        <tbody>
+                            {{ $sep := ";" }}
+                            {{ range $i, $r := getCSV $sep $team_college }}
+                                {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                                    <tr>
+                                        <th colspan="4">{{ index $r 0 }}</th>
+                                    </tr>
+                                {{ else }}
+                                    <tr>
+                                        <td>{{ index $r 0 }}</td>
+                                        <td>{{ index $r 1 }}</td>
+                                        <td>{{ index $r 2 }}</td>
+                                        <td>{{ index $r 3 }}</td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+            {{ end }}
+            <!-- CALENDARIO COLLEGE -->
+            {{ $cal_college:=print "./content/team/dati/college_games_" .Params.year ".csv"}}
+            {{ if os.FileExists $cal_college }} 
+                <div>
+                    <h4 class="text-center">CALENDARIO PARTITE COLLEGE</h4><br />
+                    <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                        <tbody>
+                            {{ $sep := ";" }}
+                            {{ range $i, $r := getCSV $sep $cal_college }}
+                                {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                                    <tr>
+                                        <th colspan="4">{{ index $r 0 }}</th>
+                                    </tr>
+                                {{ else }}
+                                    <tr>
+                                        <td>{{ index $r 0 }}</td>
+                                        <td>{{ index $r 1 }}</td>
+                                        <td>{{ index $r 2 }}</td>
+                                        <td>{{ index $r 3 }}</td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+            {{ end }}
+        
+
+            <!-- CLASSIFICA HIGHSCHOOL -->
+            {{ $team_highschool:=print "./content/team/dati/highschool_grid_" .Params.year ".csv"}}
+            {{ if os.FileExists $team_highschool }} 
+                <div>
+                    <h4 class="text-center">CLASSIFICA HIGHSCHOOL</h4><br />
+                    <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                        <tbody>
+                            {{ $sep := ";" }}
+                            {{ range $i, $r := getCSV $sep $team_highschool }}
+                                {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                                    <tr>
+                                        <th colspan="4">{{ index $r 0 }}</th>
+                                    </tr>
+                                {{ else }}
+                                    <tr>
+                                        <td>{{ index $r 0 }}</td>
+                                        <td>{{ index $r 1 }}</td>
+                                        <td>{{ index $r 2 }}</td>
+                                        <td>{{ index $r 3 }}</td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+            {{ end }}
+            <!-- CALENDARIO HIGHSCHOOL -->
+            {{ $cal_highschool:=print "./content/team/dati/highschool_games_" .Params.year ".csv"}}
+            {{ if os.FileExists $cal_highschool }} 
+                <div>
+                    <h4 class="text-center">CALENDARIO PARTITE HIGHSCHOOL</h4><br />
+                    <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                        <tbody>
+                            {{ $sep := ";" }}
+                            {{ range $i, $r := getCSV $sep $cal_highschool }}
+                                {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
+                                    <tr>
+                                        <th colspan="4">{{ index $r 0 }}</th>
+                                    </tr>
+                                {{ else }}
+                                    <tr>
+                                        <td>{{ index $r 0 }}</td>
+                                        <td>{{ index $r 1 }}</td>
+                                        <td>{{ index $r 2 }}</td>
+                                        <td>{{ index $r 3 }}</td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+            {{ end }}
+            </div>
     </div>
 {{ end }}
