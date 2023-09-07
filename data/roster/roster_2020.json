@@ -1,0 +1,60 @@
+{
+    "senior": {
+        "giocatori": [
+            "Maicol Barigazzi",
+            "Alessandro Bassi",
+            "Michele Borrelli",
+            "Damiano Caroli",
+            "Matteo Codelupi",
+            "Emanuele Daino",
+            "Gianbattista Di Tinco",
+            "Kalid El Amrani Ejjouti",
+            "Diego Falavigna",
+            "Giovanni Giustini",
+            "Martinian Grati",
+            "Ali Hasnaoui",
+            "Saad Hasnaoui",
+            "Decent Oduosa Inmwan Mona",
+            "Alex Iotti",
+            "Daniele Kolombi",
+            "Nicolò Marino",
+            "Emmanuel Onwuamaegbu",
+            "Emmanuele Oriunto",
+            "Enrico Ricco",
+            "Aleandro Russo",
+            "Alessio Russo",
+            "Mattia Selis",
+            "Luca Serri",
+            "Sglavo",
+            "Soufiane",
+            "Yaroslav Velykyi",
+            "Alessandro Virgoletti"
+        ],
+        "coach": [
+            "Luca Aschero",
+            "Marco Bonacini",
+            "Leonardo Lazzaretti",
+            "Giovanni Modena",
+            "Daniele Rossi"
+        ]
+    },
+    "scorer": [
+        "Renata Fontechiari",
+        "Alessia Raffaelli"
+    ],
+    "medici": [
+        "Edoardo Belletti",
+        "Fabrizio Bianco"
+    ],
+    "dirigenti" :[
+        "Claudio Bizzarri",
+        "Sauro Codeluppi",
+        "De Leo Riccardo",
+        "Renata Fontechiari",
+        "Loris Ginepri",
+        "Ettore Maestri",
+        "Davide Ruozzi",
+        "Federico Scolari",
+        "Gianfranco Sessi"
+    ]
+}

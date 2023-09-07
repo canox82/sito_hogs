@@ -6,7 +6,7 @@
   {{ range ( where .Site.Pages "Type" "storia" )}}
       <div class="col">
         <h5>
-          <span class="badge" style="transform: rotate(45deg);"><a href="{{ .RelPermalink }}">{{ .Params.year }}</a></span>
+          <span class="badge p-0" style="transform: rotate(80deg);"><a href="{{ .RelPermalink }}">{{ .Params.year }}</a></span>
         </h5>
       </div>
   {{ end }}
