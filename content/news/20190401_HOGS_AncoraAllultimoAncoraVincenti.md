@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/maestri-td.jpg" width=75%>
+<img class="articolo" src="../img/2019/maestri-td.jpg">
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Aprono gli Hogs con Camposano che grazie all’ottimo lavoro della linea d’att
 <br/>
 
 <center>
-<img src="../img/2019/camposano-td-2.jpg" width=75%>
+<img class="articolo" src="../img/2019/camposano-td-2.jpg">
 </center>
 
 <br/>  
@@ -37,7 +37,7 @@ Poco più di due minuti e gli Hogs costruiscono un ultimo drive partendo dalle 4
 <br/>
 
 <center>
-<img src="../img/2019/conticello-td.jpg" width=75%>
+<img class="articolo" src="../img/2019/conticello-td.jpg">
 </center>
 
 <br/>  
@@ -48,7 +48,7 @@ Meno di un minuto alla fine, ma visto l’andamento della partita non c’è da 
 <br/>
 
 <center>
-<img src="../img/2019/conticello-amparo.jpg" width=75%>
+<img class="articolo" src="../img/2019/conticello-amparo.jpg">
 </center>
 
 <br/>  

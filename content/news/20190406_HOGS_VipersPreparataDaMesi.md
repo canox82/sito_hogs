@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/caccialupi.jpg" width=75%>
+<img class="articolo" src="../img/2019/caccialupi.jpg">
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Dopo oltre 20 anni, nel 2014 si ricostituiscono i Vipers Modena e bastano 2 anni
 <br/>
 
 <center>
-<img src="../img/2019/fiorillo-vipers.jpg" width=75%>
+<img class="articolo" src="../img/2019/fiorillo-vipers.jpg">
 </center>
 
 <br/>  
@@ -29,7 +29,7 @@ Gli Hogs, con le due vittorie tiratissime su Pretoriani e Braves si presentano c
 <br/>
 
 <center>
-<img src="../img/2019/hogs-vip.jpg" width=75%>
+<img class="articolo" src="../img/2019/hogs-vip.jpg">
 </center>
 
 <br/>  

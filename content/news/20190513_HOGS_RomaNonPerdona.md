@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/running.jpg" width=75%>
+<img class="articolo" src="../img/2019/running.jpg">
 </center>
 
 <br/>  
@@ -21,7 +21,7 @@ L’attacco reggiano è costretto più volte al punt, e non riesce ad entrare in
 <br/> 
 
 <center>
-<img src="../img/2019/running2.jpg">
+<img class="articolo" src="../img/2019/running2.jpg">
 </center>
 
 <br/>  
@@ -33,7 +33,7 @@ Al ritorno in campo i padroni di casa tornano ad imporsi dopo che gli Hogs perdo
 <br/> 
 
 <center>
-<img src="../img/2019/running3.jpg">
+<img class="articolo" src="../img/2019/running3.jpg">
 </center>
 
 <br/>  

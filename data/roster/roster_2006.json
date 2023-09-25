@@ -1,7 +1,6 @@
 {
     "senior": {
         "giocatori": [
-            "Jeff Adesabon",
             "Francesco Aiello",
             "Dario Amato",
             "Paolo Armah",
@@ -55,7 +54,11 @@
         "coach": [
             "Dwaine Hatch",
             "Luca Cattini",
-            "Mauro Giberti"
+            "Mauro Giberti",
+            "Giorgio Longhi",
+            "Andrea Lugli",
+            "Daniele Rossi",
+            "Federico Scolari"
         ]
     },
     "u21": {
@@ -96,8 +99,13 @@
             "Luca Stermieri"
         ],
         "coach": [
+            "Dwaine Hatch",
             "Luca Cattini",
-            "Mauro Giberti"
+            "Mauro Giberti",
+            "Giorgio Longhi",
+            "Andrea Lugli",
+            "Daniele Rossi",
+            "Federico Scolari"
         ]
     },
     "u17": {
@@ -119,12 +127,18 @@
             "Emanuele Vezzani"
         ],
         "coach": [
+            "Dwaine Hatch",
             "Luca Cattini",
-            "Mauro Giberti"
+            "Mauro Giberti",
+            "Giorgio Longhi",
+            "Andrea Lugli",
+            "Daniele Rossi",
+            "Federico Scolari"
         ]
     },
     "scorer": [
-      "Barbara Comi"
+      "Barbara Comi",
+      "Mirco Sassi"
     ],
     "medici": [
     ],

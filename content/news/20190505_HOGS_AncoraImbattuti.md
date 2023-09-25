@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/RBruozzi.jpg" width=75%>
+<img class="articolo" src="../img/2019/RBruozzi.jpg">
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Un intercetto di Caccialupi riconsegna la palla all’attacco, così inizia il 2
 <br/> 
 
 <center>
-<img src="../img/2019/cebotaru.jpg">
+<img class="articolo" src="../img/2019/cebotaru.jpg">
 </center>
 
 <br/>  
@@ -31,7 +31,7 @@ Al rientro in campo la difesa granata costringe subito al punt i Red jackets. St
 <br/> 
 
 <center>
-<img src="../img/2019/defense-2.jpg" width=75%>
+<img class="articolo" src="../img/2019/defense-2.jpg">
 </center>
 
 <br/>  

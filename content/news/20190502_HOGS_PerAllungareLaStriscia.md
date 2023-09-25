@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/addol-offense.jpg" width=75%>
+<img class="articolo" src="../img/2019/addol-offense.jpg">
 </center>
 
 <br/>  
@@ -18,7 +18,7 @@ Forse la risposta è nel collettivo, il gruppo che quando riesce a giocare con s
 <br/>
 
 <center>
-<img src="../img/2019/offense.jpg" width=75%>
+<img class="articolo" src="../img/2019/offense.jpg">
 </center>
 
 <br/>  

@@ -6,7 +6,7 @@ tags: ["flag","allenamenti"]
 draft: false
 ---
 <center>
-<img src="../img/2019/flagf3.jpg" width=75%>
+<img class="articolo" src="../img/2019/flagf3.jpg">
 </center>
 
 <br/>  

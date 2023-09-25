@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/capitani.jpg" width=75%>
+<img class="articolo" src="../img/2019/capitani.jpg">
 </center>
 
 <br/>
@@ -27,7 +27,7 @@ Certo non si prospetta più facile l’impresa della difesa che affronta una lin
 <br/>
 
 <center>
-<img src="../img/2019/squadra.jpg" width=75%>
+<img class="articolo" src="../img/2019/squadra.jpg">
 </center>
 
 <br/>  

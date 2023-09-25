@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/runningame.jpg" width=75%>
+<img class="articolo" src="../img/2019/runningame.jpg">
 </center>
 
 <br/>  
@@ -21,7 +21,7 @@ Chiave di volta dell’incontro è stata la velocità dei giocatori degli Hogs, 
 <br/>
 
 <center>
-<img src="../img/2019/runningame2.jpg" width=75%>
+<img class="articolo" src="../img/2019/runningame2.jpg">
 </center>
 
 <br/>  

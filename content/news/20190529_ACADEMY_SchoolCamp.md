@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/schoolcamp.jpg" width=75%>
+<img class="articolo" src="../img/2019/schoolcamp.jpg">
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Divertimento, prove di abilità, esercizi di fondamentali, prova di caschi e par
 Sabato 1 Giugno al campo del San Prospero in via Allende dalle 10,00 alle 18,00.  
   
 <center>
-<img src="../img/2019/ScuolaFootball300.jpg">
+<img class="articolo" src="../img/2019/ScuolaFootball300.jpg">
 </center>
 
 <br/>  

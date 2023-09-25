@@ -1,8 +1,8 @@
 ---
-title: "Autostile"
-logo: "../img/sponsor/autostile.png"
+title: "Adani"
+logo: "../img/sponsor/adani.png"
 sito: "https://www.autostilespa.com/"
-categoria: 2
+categoria: 1
 esperienza: true
 draft: false
 ---

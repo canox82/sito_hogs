@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/fiorillo.jpg" width=75%>
+<img class="articolo" src="../img/2019/fiorillo.jpg">
 </center>
 
 <br/>  
@@ -21,7 +21,7 @@ Due squadre simili in attacco, che preferiscono correre. Prediligono un power fo
 <br/> 
 
 <center>
-<img src="../img/2019/linea-difesa.jpg">
+<img class="articolo" src="../img/2019/linea-difesa.jpg">
 </center>
 
 <br/>  

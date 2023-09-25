@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/difesa-1.jpg" width=75%>
+<img class="articolo" src="../img/2019/difesa-1.jpg" width=75%>
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Il giovane Ghelfi , spostato da WR a QB ha comunque ben figurato, riuscendo nell
 <br/>
 
 <center>
-<img src="../img/2019/buriani-1-3.jpg" width=75%>
+<img class="articolo" src="../img/2019/buriani-1-3.jpg">
 </center>
 
 <br/>  
@@ -29,7 +29,7 @@ Poi è arrivato un safety della difesa dei porcellini e il punteggio si è fissa
 <br/>
 
 <center>
-<img src="../img/2019/fiorillo-1.jpg" width=75%>
+<img class="articolo" src="../img/2019/fiorillo-1.jpg">
 </center>
 
 <br/>

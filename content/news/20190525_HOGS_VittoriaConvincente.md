@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/festeggiamenti.jpg" width=75%>
+<img class="articolo" src="../img/2019/festeggiamenti.jpg">
 </center>
 
 <br/>  
@@ -23,7 +23,7 @@ Nell’ultimo quarto dopo il field goal stoppato dai Vipers, sembra ripresentars
 <br/> 
 
 <center>
-<img src="../img/2019/RBsabbioni.jpg" width=75%>
+<img class="articolo" src="../img/2019/RBsabbioni.jpg">
 </center>
 
 <br/>  

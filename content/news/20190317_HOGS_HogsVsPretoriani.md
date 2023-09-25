@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/salto.jpg" width=75%>
+<img class="articolo" src="../img/2019/salto.jpg" width=75%>
 </center>
 
 <br/>  
@@ -18,7 +18,7 @@ L’esordio casalingo dei DG Plast Hogs nel 2019 è cominciato proprio dalla fin
 <br/>
 
 <center>
-<img src="../img/2019/pretoriani1.jpg">
+<img class="articolo" src="../img/2019/pretoriani1.jpg">
 </center>
 
 <br/>  
@@ -33,7 +33,7 @@ Ultimo drive dei DG Plast Hogs in cui davvero accade di tutto : per due volte il
 <br/>
 
 <center>
-<img src="../img/2019/pretoriani5.jpg" width=75%>
+<img class="articolo" src="../img/2019/pretoriani5.jpg">
 </center>
 
 <br/>  

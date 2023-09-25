@@ -1,12 +1,10 @@
 ---
-title: "Alessandro Formoso Ambiente e Sicurezza a Reggio Emilia"
-logo: "../img/sponsor/formoso_logo.jpg"
+title: "Formoso Alessandro - Consulenza ambiente e sicurezza"
+logo: "../img/sponsor/formoso.png"
 sito: ""
 categoria: 1
-esperienza: false
+esperienza: true
 draft: false
 ---
-
-  
 
   

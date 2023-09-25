@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/VHfesteggiamenti.jpg" width=75%>
+<img class="articolo" src="../img/2019/VHfesteggiamenti.jpg">
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Altro fattore i due kicker, Leo (Vipers) e Cebotaru (Hogs): due piedi potentissi
 <br/>
 
 <center>
-<img src="../img/2019/VHburiani.jpg" width=75%>
+<img class="articolo" src="../img/2019/VHburiani.jpg">
 </center>
 
 <br/>  
@@ -30,7 +30,7 @@ Si scalda la partita, ma la crew arbitrale fa subito capire di volerla tenere in
 <br/>
 
 <center>
-<img src="../img/2019/VHdl.jpg" width=75%>
+<img class="articolo" src="../img/2019/VHdl.jpg">
 </center>
 
 <br/>  
@@ -42,7 +42,7 @@ In apertura di 3° quarto, la difesa dei porcellini costringe al punt i Vipers e
 <br/>
 
 <center>
-<img src="../img/2019/VHint-caccialupi.jpg" width=75%>
+<img class="articolo" src="../img/2019/VHint-caccialupi.jpg">
 </center>
 
 <br/>  
@@ -54,7 +54,7 @@ Con la palla in attacco prima degli ultimi due minuti di gioco gli Hogs cercano 
 <br/>
 
 <center>
-<img src="../img/2019/VHSneak.jpg" width=75%>
+<img class="articolo" src="../img/2019/VHSneak.jpg">
 </center>
 
 <br/>

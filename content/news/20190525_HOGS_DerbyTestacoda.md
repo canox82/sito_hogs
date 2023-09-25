@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/battistiniDE.jpg" width=75%>
+<img class="articolo" src="../img/2019/battistiniDE.jpg">
 </center>
 
 <br/>  
@@ -19,7 +19,7 @@ Hogs primi coi Pretoriani nel girone B e Vipers ultimi con una sola vittoria.   
 <br/> 
 
 <center>
-<img src="../img/2019/maestri.jpg">
+<img class="articolo" src="../img/2019/maestri.jpg">
 </center>
 
 <br/>  
@@ -30,7 +30,7 @@ L’attacco aereo dei Vipers ( il QB Malta è vicinissimo alle 1.000 yard lancia
 <br/> 
 
 <center>
-<img src="../img/2019/spec.jpg">
+<img class="articolo" src="../img/2019/spec.jpg">
 </center>
 
 <br/>  
@@ -41,7 +41,7 @@ A questo punto del campionato gli Hogs non possono accontentarsi: bisognerà gio
 <br/> 
 
 <center>
-<img src="../img/2019/burianiRB.jpg" width=75%>
+<img class="articolo" src="../img/2019/burianiRB.jpg">
 </center>
 
 <br/>  

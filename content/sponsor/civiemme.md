@@ -1,12 +1,10 @@
 ---
-title: "CIVIEMME SRL"
-logo: "../img/sponsor/civiemme_logo.jpg"
+title: "Civiemme S.r.l."
+logo: "../img/sponsor/civiemme.png"
 sito: "https://www.civiemmesrl.it/"
 categoria: 2
-esperienza: false
+esperienza: true
 draft: false
 ---
-
-  
 
   

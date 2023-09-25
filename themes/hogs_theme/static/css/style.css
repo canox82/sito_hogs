@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+html,a,p,span,div{
+    font-family: 'Play', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Russo One', sans-serif;
+    color:#4D101C;
+}
+
 header,footer {
     background-color: #4D101C;
     color: #C0C0C0;
@@ -46,3 +57,15 @@ a:link {
 .separator:not(:empty)::after {
     margin-left: .25em;
 }
+
+/* For mobile phones: */
+img.articolo {
+    width: 75%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    img.articolo {
+        width: 40%;
+      }
+  }

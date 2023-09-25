@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/HBcaccialupi.jpg" width=75%>
+<img class="articolo" src="../img/2019/HBcaccialupi.jpg">
 </center>
 
 <br/>  

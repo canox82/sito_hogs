@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/sabbioni_rhinos.jpg" width=75%>
+<img class="articolo" src="../img/2019/sabbioni_rhinos.jpg">
 </center>
 
 <br/>
@@ -19,7 +19,7 @@ Hanno giocato il tutto per tutto gli Hogs, anche un 4° tentativo e pollici nel 
 <br/>
   
 <center>
-<img src="../img/2019/offense_rhinos.jpg" width=75%>
+<img class="articolo" src="../img/2019/offense_rhinos.jpg">
 </center>
   
 <br/>  

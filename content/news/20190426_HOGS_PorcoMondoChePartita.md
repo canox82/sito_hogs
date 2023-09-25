@@ -7,7 +7,7 @@ draft: false
 ---
 
 <center>
-<img src="../img/2019/braves_hogs.jpg" width=75%>
+<img class="articolo" src="../img/2019/braves_hogs.jpg">
 </center>
 
 <br/>  
@@ -21,7 +21,7 @@ Problemi dall’inizio per l’offense reggiana: crampi a go go per il QB titola
 <br/>
 
 <center>
-<img src="../img/2019/braves_hogs2.jpg" width=75%>
+<img class="articolo" src="../img/2019/braves_hogs2.jpg">
 </center>
 
 <br/>  
@@ -36,7 +36,7 @@ Nell’ultimo quarto subito il 3° TD pass di Conticello per Ferri, che con l’
 <br/>
 
 <center>
-<img src="../img/2019/braves_hogs3.jpg" width=75%>
+<img class="articolo" src="../img/2019/braves_hogs3.jpg">
 </center>
 
 <br/>  
@@ -48,7 +48,7 @@ Senza dubbio manca la continuità di esecuzione, ma questo è inevitabile in un 
 <br/>
 
 <center>
-<img src="../img/2019/braves_hogs4.jpg" height=400>
+<img class="articolo" src="../img/2019/braves_hogs4.jpg">
 </center>
 
 <br/>  

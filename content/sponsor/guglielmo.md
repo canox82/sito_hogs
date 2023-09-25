@@ -1,12 +1,10 @@
 ---
-title: "Guglielmo"
-logo: "../img/sponsor/guglielmo_logo.png"
+title: "Guglielmo - Wireless Technology Provider"
+logo: "../img/sponsor/guglielmo.png"
 sito: "https://www.guglielmo.biz/"
-categoria: 2
-esperienza: false
+categoria: 3
+esperienza: true
 draft: false
 ---
-
-  
 
   
