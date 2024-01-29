@@ -7,7 +7,13 @@ draft: false
 # HOGS FOOTBALL ACADEMY 
 # ENEA "BOLO" CODELUPPI
 </center>
-<br/>
+
+<br />
+<center>
+<img src="../img/logo_football_academy.png" width="350" alt="Logo Hogs Football Academy Enea 'Bolo' Codeluppi">
+</center>
+<br />
+
 Gli Hogs Reggio Emilia hanno costituito la Football Academy Enea Codeluppi per sviluppare al meglio l’attività rivolta ai ragazzi dai 9 ai 19 anni. Le risorse a supporto di questo progetto provengono esclusivamente da donazioni volontarie.  
 <br/><br/>  
 
