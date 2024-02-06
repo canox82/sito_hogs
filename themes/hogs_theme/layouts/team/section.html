@@ -5,7 +5,7 @@
         <br/>
         {{ template "partials/team_timeline.html" .}}
         <br/>
-        {{ $anno := dateFormat "2006" now}}
+        {{ $anno := dateFormat "2006" now }}
         <div class="d-flex justify-content-around flex-wrap">
           <!-- CLASSIFICA SENIOR -->
           {{ $team_senior:=print "./content/team/dati/senior_grid_" $anno ".csv"}}
