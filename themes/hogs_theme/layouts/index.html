@@ -44,13 +44,13 @@
             <div>
               <div>
                 <h6 class="text-center">CLASSIFICA SENIOR</h6>
-                <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;vertical-align: middle;">
                   <tbody>
                     {{ $sep := ";" }}
                     {{ range $i, $r := getCSV $sep $team_senior }}
                     {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
                     <tr>
-                      <th colspan="4">{{ index $r 0 }}</th>
+                      <th colspan="6">{{ index $r 0 }}</th>
                     </tr>
                     {{ else }}
                     <tr>
@@ -58,6 +58,8 @@
                       <td>{{ index $r 1 }}</td>
                       <td>{{ index $r 2 }}</td>
                       <td>{{ index $r 3 }}</td>
+                      <td>{{ index $r 4 }}</td>
+                      <td>{{ index $r 5 }}</td>
                     </tr>
                     {{ end }}
                     {{ end }}
@@ -69,7 +71,7 @@
               {{ $cal_senior:=print "./content/team/dati/senior_games_" $anno ".csv"}}
               {{ if os.FileExists $cal_senior }}
                 <h6 class="text-center">CALENDARIO</h6>
-                <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+                <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;vertical-align: middle;">
                   <tbody>
                     {{ $sep := ";" }}
                     {{ range $i, $r := getCSV $sep $cal_senior }}
@@ -97,13 +99,13 @@
             {{ if os.FileExists $team_college }}
             <div>
               <h6 class="text-center">CLASSIFICA COLLEGE</h6>
-              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;vertical-align: middle;">
                 <tbody>
                   {{ $sep := ";" }}
                   {{ range $i, $r := getCSV $sep $team_college }}
                   {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
                   <tr>
-                    <th colspan="4">{{ index $r 0 }}</th>
+                    <th colspan="6">{{ index $r 0 }}</th>
                   </tr>
                   {{ else }}
                   <tr>
@@ -111,6 +113,8 @@
                     <td>{{ index $r 1 }}</td>
                     <td>{{ index $r 2 }}</td>
                     <td>{{ index $r 3 }}</td>
+                    <td>{{ index $r 4 }}</td>
+                    <td>{{ index $r 5 }}</td>
                   </tr>
                   {{ end }}
                   {{ end }}
@@ -123,10 +127,10 @@
             {{ if os.FileExists $cal_college }}
             <div>
               <h6 class="text-center">CALENDARIO</h6>
-              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;vertical-align: middle;">
                 <tbody>
                   {{ $sep := ";" }}
-                  {{ range $i, $r := getCSV $sep $cal_senior }}
+                  {{ range $i, $r := getCSV $sep $cal_college }}
                   {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
                   <tr>
                     <th colspan="4">{{ index $r 0 }}</th>
@@ -151,13 +155,13 @@
             {{ if os.FileExists $team_highschool }}
             <div>
               <h6 class="text-center">CLASSIFICA HIGHSCHOOL</h6>
-              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;vertical-align: middle;">
                 <tbody>
                   {{ $sep := ";" }}
                   {{ range $i, $r := getCSV $sep $team_highschool }}
                   {{ if and (eq (index $r 1) "") (eq (index $r 2) "") }}
                   <tr>
-                    <th colspan="4">{{ index $r 0 }}</th>
+                    <th colspan="6">{{ index $r 0 }}</th>
                   </tr>
                   {{ else }}
                   <tr>
@@ -165,6 +169,8 @@
                     <td>{{ index $r 1 }}</td>
                     <td>{{ index $r 2 }}</td>
                     <td>{{ index $r 3 }}</td>
+                    <td>{{ index $r 4 }}</td>
+                    <td>{{ index $r 5 }}</td>
                   </tr>
                   {{ end }}
                   {{ end }}
@@ -177,7 +183,7 @@
             {{ if os.FileExists $cal_highschool }}
             <div>
               <h6 class="text-center">CALENDARIO</h6>
-              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;">
+              <table class="table table-sm table-bordered text-center valign-middle w-auto mx-auto" style="font-size: small;vertical-align: middle;">
                 <tbody>
                   {{ $sep := ";" }}
                   {{ range $i, $r := getCSV $sep $cal_highschool }}
