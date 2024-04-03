@@ -1,5 +1,5 @@
 ---
-title: "FLAG, RISULTATI SECONDO BOWL"
+title: "FLAG U15, RISULTATI SECONDO BOWL"
 date_writing: 2023-05-08T11:30:28+02:00
 data: "08/05/2023"
 tags: ["flag","academy"]

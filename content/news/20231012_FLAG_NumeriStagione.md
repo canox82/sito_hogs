@@ -1,5 +1,5 @@
 ---
-title: "FLAG, I NUMERI DI UNA STAGIONE ECCEZZIONALE!"
+title: "FLAG, I NUMERI DI UNA STAGIONE ECCEZIONALE!"
 date_writing: 2023-10-12T11:30:28+02:00
 data: "12/10/2023"
 tags: ["flag","lenaf"]
@@ -24,9 +24,10 @@ Ecco i nostri numeri di quest’anno:
 Ma non finisce qui!  
 Gli Hogs continuano gli allenamenti in preparazione al campionato tackle senior, al campionato giovanile under 18 e al campionato di flag football femminile.  
 
-**Sia che tu sia un veterano o un principiante, c’è un posto per te nella nostra squadra. Venite a far parte della nostra famiglia e prepariamoci per un altro anno di successi e divertimento sul campo!**   
+**Sia che tu sia un veterano o un principiante, c’è un posto per te nella nostra squadra.  
+Vieni a far parte della nostra famiglia e prepariamoci per un altro anno di successi e divertimento sul campo!**   
   
 <center>
-<img class="articolo" src="../img/2023/flag_2024_stagione.jpg">
+<img class="articolo" src="../img/2023/flag_2023_stagione.jpg">
 </center>
 <br />

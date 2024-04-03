@@ -6,11 +6,18 @@ tags: ["senior","lenaf"]
 draft: false
 ---
 
-Sabato partita di debutto per gli Hogs in casa dei Rooster Romagna a Marina di Ravenna.
 
 <center>
-<img class="articolo" src="../img/2023/poster_1partita_senior.jpg">
+<img class="articolo" src="../img/2023/roosters_hogs_pregame.jpg">
 </center>
+<br />
+
+Si inizia il campionato con la prima trasferta su suolo romagnolo.⁣⁣⁣  
+
+I nostri granata affronteranno i @roosters_romagna , sabato 25 febbraio alle 20:30 nel Campo Comunale di Marina di Ravenna (Via del Marchesato 1, RA).  
+
+GO HOGS! 🏈🐗⁣⁣
+
 
   
 

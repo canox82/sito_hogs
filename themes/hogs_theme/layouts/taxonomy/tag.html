@@ -7,13 +7,13 @@
           <div class="p-3 text-center">
             <h3>{{ .Title | humanize }}</h3>
           </div>
-          <ul>
-            {{ range .Data.Pages.ByDate.Reverse }}
-            <li>
-              <a href="{{.RelPermalink}}">{{ .Params.data }} - {{.Title }}</a>
-            </li>
+          <div class="p-3">
+            {{ range sort .Data.Pages ".Params.date_writing" "desc" }}
+              <div class="p-1">
+                <a href="{{.RelPermalink}}">{{ .Params.data }} - {{.Title }}</a>
+              </div>
             {{ end }}
-        </ul>        
+          </div>        
         </div>
         {{ template "partials/footer.html" . }}
         {{ template "partials/script.html" . }}
