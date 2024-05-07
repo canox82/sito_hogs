@@ -27,6 +27,12 @@ a.mini {
     text-decoration: none;
 }
 
+.verticaltext{
+    width:1px;
+    word-wrap: break-word;
+    white-space:pre-wrap; 
+ }
+
 a {
     color: #4D101C;
 }
