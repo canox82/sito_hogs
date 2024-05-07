@@ -3,7 +3,7 @@
       <div class="p-3">
         <br/>
         <h5>ARCHIVIO NEWS</h5>
-        <div class="p-1">
+        <div class="p-3">
           {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
             {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
                   <div class="my-1 btn btn-outline-danger">
@@ -13,12 +13,17 @@
             {{end}}
           {{end}}
         </div>
-        <div class="contents">
-            {{ range sort .Pages ".Params.date_writing" "desc" }}
-            <div class="p-1">
-              <a href="{{ .RelPermalink }}">{{ .Params.data }} - {{ .Title }}</a>
+        <div class="content">
+          {{ range .Pages.GroupByParamDate "date_writing" "2006" }}
+            <p class="mt-2"><h6>{{ .Key }}</h6></p>
+            <div class="mx-4">
+              {{ range .Pages }}
+                <div class="p-1"><a href="{{ .RelPermalink }}">{{ .Params.data }} - {{ .Title }}</a></div>
+              {{ end }}
             </div>
-            {{ end }}
+            <br>
+          {{ end }}
+          Scritti {{ len .Pages}} articoli.
         </div>
       </div>
   </main>

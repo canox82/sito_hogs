@@ -2,7 +2,7 @@
 title: "FLAG U15, BOWL A MASSA"
 date_writing: 2023-05-17T11:30:28+02:00
 data: "17/05/2023"
-tags: ["flag","academy"]
+tags: ["flag","academy","bowl"]
 draft: false
 ---
 

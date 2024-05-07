@@ -4,8 +4,9 @@
     <body>
         {{ template "partials/header.html" . }}
         <div id="content">
-          <div class="p-3 text-center">
-            <h3>{{ .Title | humanize }}</h3>
+          <div class="p-3">
+            <br/>
+            <h5 class="text-uppercase">{{ .Title }}</h5>
           </div>
           <div class="p-3">
             {{ range sort .Data.Pages ".Params.date_writing" "desc" }}
@@ -13,7 +14,11 @@
                 <a href="{{.RelPermalink}}">{{ .Params.data }} - {{.Title }}</a>
               </div>
             {{ end }}
-          </div>        
+          </div>   
+          <div class="text-center mt-3">
+            <a href="../../news/"> >> ARCHIVIO NEWS << </a>
+            <p></p>
+          </div>     
         </div>
         {{ template "partials/footer.html" . }}
         {{ template "partials/script.html" . }}

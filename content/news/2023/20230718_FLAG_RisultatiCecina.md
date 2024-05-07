@@ -2,7 +2,7 @@
 title: "FLAG, I RISULTATI DA CECINA"
 date_writing: 2023-07-18T11:30:28+02:00
 data: "18/07/2023"
-tags: ["flag","lenaf"]
+tags: ["flag","lenaf","bowl"]
 draft: false
 ---
 

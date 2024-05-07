@@ -2,7 +2,7 @@
 title: "FLAG F3, ORARI 2° BOWL DI PARMA"
 date_writing: 2023-05-25T11:30:28+02:00
 data: "25/05/2023"
-tags: ["flag","femminile"]
+tags: ["flag","femminile","bowl"]
 draft: false
 ---
 

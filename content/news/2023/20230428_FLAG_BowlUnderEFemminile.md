@@ -2,7 +2,7 @@
 title: "FLAG, DOPPIO BOWL CASALINGO PER UNDER15 E FEMMINILE!"
 date_writing: 2023-04-28T11:30:28+02:00
 data: "28/04/2023"
-tags: ["flag","academy","femminile"]
+tags: ["flag","academy","femminile","bowl"]
 draft: false
 ---
 

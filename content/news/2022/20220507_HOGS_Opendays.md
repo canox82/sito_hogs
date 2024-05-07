@@ -2,7 +2,7 @@
 title: "HOGS: OPENDAYS FLAG FOOTBALL E FOOTBALL AMERICANO"
 date_writing: 2022-05-07T11:28:28+02:00
 data: "07/05/2022"
-tags: ["academy","flag"]
+tags: ["academy","flag","eventi"]
 draft: false
 ---
 

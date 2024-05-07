@@ -2,7 +2,7 @@
 title: "FLAG F3, RISULTATI 1° BOWL CASALINGO"
 date_writing: 2023-04-30T11:30:28+02:00
 data: "30/04/2023"
-tags: ["flag","femminile"]
+tags: ["flag","femminile","bowl"]
 draft: false
 ---
 

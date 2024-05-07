@@ -23,7 +23,7 @@
       <h3 class="text-center">
         {{ with .Site.GetPage "section" "news" }}{{ .Title }}
       </h3>
-          {{ range first 20 (sort .Data.Pages ".Params.date_writing" "desc") }}
+          {{ range first 15 (sort .Data.Pages ".Params.date_writing" "desc") }}
                 <a href="{{ .Permalink }}"> {{ .Params.Data}} - {{ .Title }} </a> <br />
           {{ end}}
       {{ end }}

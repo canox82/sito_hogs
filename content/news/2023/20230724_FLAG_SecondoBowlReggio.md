@@ -2,7 +2,7 @@
 title: "FLAG, HOGS PRONTI AD AFFRONTARE IL BOWL CASALINGO"
 date_writing: 2023-07-24T11:30:28+02:00
 data: "24/07/2023"
-tags: ["flag","lenaf"]
+tags: ["flag","lenaf","bowl"]
 draft: false
 ---
 

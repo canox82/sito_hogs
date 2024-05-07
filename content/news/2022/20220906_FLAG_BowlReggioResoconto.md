@@ -2,7 +2,7 @@
 title: "FLAG, RESOCONTO DEL BOWL CASALINGO "
 date_writing: 2022-09-06T18:00:26+02:00
 data: "06/09/2022"
-tags: ["flag"]
+tags: ["flag","bowl"]
 draft: false
 ---
 <center>

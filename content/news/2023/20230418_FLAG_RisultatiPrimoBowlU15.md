@@ -2,7 +2,7 @@
 title: "FLAG U15, I RISULTATI DEL PRIMO BOWL"
 date_writing: 2023-04-18T11:30:28+02:00
 data: "18/04/2023"
-tags: ["flag","academy"]
+tags: ["flag","academy","bowl"]
 draft: false
 ---
 

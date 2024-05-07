@@ -2,7 +2,7 @@
 title: "FLAG F3, RISULTATI 2° BOWL DI PARMA"
 date_writing: 2023-05-29T11:30:28+02:00
 data: "29/05/2023"
-tags: ["flag","femminile"]
+tags: ["flag","femminile","bowl"]
 draft: false
 ---
 

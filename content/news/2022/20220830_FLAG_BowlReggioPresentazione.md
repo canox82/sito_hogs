@@ -2,7 +2,7 @@
 title: "FLAG, DOMENICA 4 SETTEMBRE VI ASPETTIAMO PER IL BOWL DI FLAG!"
 date_writing: 2022-08-30T09:20:17+02:00
 data: "30/08/2022"
-tags: ["flag"]
+tags: ["flag","bowl"]
 draft: false
 ---
 <center>

@@ -2,7 +2,7 @@
 title: "FLAG, DUE VITTORIE NEL PRIMO BOWL"
 date_writing: 2022-07-18T14:18:07+02:00
 data: "18/07/2022"
-tags: ["flag"]
+tags: ["flag","bowl"]
 draft: false
 ---
 <center>

@@ -2,7 +2,7 @@
 title: "FLAG, PRIMO BOWL A CECINA"
 date_writing: 2023-07-15T11:30:28+02:00
 data: "15/07/2023"
-tags: ["flag","lenaf"]
+tags: ["flag","lenaf","bowl"]
 draft: false
 ---
 
